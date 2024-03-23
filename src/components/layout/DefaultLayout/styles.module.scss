@@ -1,0 +1,37 @@
+.header {
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #fff;
+
+  .content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .home-nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  .right {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+    .nav-link {
+      color: #000;
+      text-decoration: none;
+    }
+  }
+}

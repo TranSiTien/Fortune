@@ -1,7 +1,6 @@
 import styles from "./styles.module.scss";
 import classNames from "classnames/bind";
-import { Button, Container, Row, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
 import ProjectPreview from "./components/ProjectPreview";
 
 const cx = classNames.bind(styles);
@@ -42,21 +41,6 @@ const projects = [
 function HomePage() {
   return (
     <>
-      <div className={cx("header")}>
-        <Container>
-          <div className={cx("content")}>
-            <nav>
-              <span className={cx("home-nav")}>Home</span>
-            </nav>
-            <nav className={cx("right")}>
-              <Link className={cx("nav-link")} to="login">
-                Log in
-              </Link>
-              <Button variant="primary">Sign up</Button>
-            </nav>
-          </div>
-        </Container>
-      </div>
       <div className={cx("inspiring-panel")}>
         <Container>
           <div className={cx("title")}>Discover projects</div>
