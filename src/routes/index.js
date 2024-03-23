@@ -1,10 +1,10 @@
-import MainPage from "pages/MainPage";
+import HomePage from "../pages/HomePage";
 
 const routes = [
-    {
-        path: '/',
-        page: MainPage,
-    }
-]
+  {
+    path: "/",
+    page: HomePage,
+  },
+];
 
 export default routes;
