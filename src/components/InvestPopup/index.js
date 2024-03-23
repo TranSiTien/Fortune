@@ -1,0 +1,3 @@
+function InvestPopup() {
+  const [isS]
+}

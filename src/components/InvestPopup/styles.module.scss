@@ -1,0 +1,40 @@
+.header {
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #fff;
+  border-bottom: 1px solid #eee; // Light bottom border
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Light shadow
+
+  .content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav {
+    display: flex;
+    display: inline-block;
+    margin-right: 100px;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  .right {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+}
+
+.children {
+  margin-top: 3rem;
+}

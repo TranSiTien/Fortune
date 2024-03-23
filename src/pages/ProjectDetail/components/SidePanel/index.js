@@ -38,6 +38,18 @@ function SidePanel() {
           Roadmap
         </a>
         <br></br>
+        <a
+          className={cx("website-link")}
+          href="https://example.com/website"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/crypto-coin-2432529-2015842.png" alt="website" width={30} height={30}/>
+          Token (NMM)NOTMEMECOIN
+        </a>
+        <p>Total tokens: 1000 NMM 
+          <br></br>
+        Tokens for liquidity: 200 NMM</p>
       </div>
     </div>
   );
