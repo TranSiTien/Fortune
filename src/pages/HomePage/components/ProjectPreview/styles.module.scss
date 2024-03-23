@@ -30,6 +30,17 @@
   .description {
     padding: 1rem;
     font-size: 1.2rem;
+    font-weight: 200;
+  }
+
+  .capital-raised {
+    background-image: linear-gradient(100.51deg, #f087ff 27.61%, #6e1fce 62.14%, rgba(110, 31, 206, .1) 113.78%);
+    --font-family-sans-serif: Helvetica, Arial, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    padding: 1rem;
+    color: transparent;
+    font-weight: 300;
+    background-clip: text;
+    font-size: 3rem;
     font-weight: 500;
   }
 }

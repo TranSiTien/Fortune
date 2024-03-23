@@ -1,6 +1,8 @@
 import SidePanel from "./components/SidePanel";
 import Post from "./components/Post";
-import { Container } from "react-bootstrap";
+import CapitalRaisingRound from "./components/CapitalRasingRound";
+import { Button, Container } from "react-bootstrap";
+import 'boxicons';
 
 import styles from "./styles.module.scss";
 import classNames from "classnames/bind";
@@ -47,10 +49,12 @@ const posts = [
 
 function ProjectDetail() {
   return (
+    
     <div className={cx("container")}>
       <div className={cx("side-panel")}>
         <SidePanel />
       </div>
+      <CapitalRaisingRound />
       <div className={cx("content")}>
         {posts.map((post) => (
           <div className={cx("post-wrapper")}>
