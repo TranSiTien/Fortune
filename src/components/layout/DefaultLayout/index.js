@@ -23,7 +23,7 @@ function DefaultLayout({ children }) {
           </div>
         </Container>
       </div>
-      {children}
+      <div className={cx("children")}>{children}</div>
     </>
   );
 }
